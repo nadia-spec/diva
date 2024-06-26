@@ -1,0 +1,26 @@
+
+.grid-container {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 150px 20px;
+    grid-template-rows: minmax (150px,auto);
+    grid-gap: 20px
+    
+
+  
+}
+.grid-container> div {
+    border: 2px solid black;
+    margin: 0;
+   padding: 50px;
+    
+
+}
+
+
+.grid-item{
+    background-color: darkred; 
+    width: 2cap;
+    height: 50px
+}
+
